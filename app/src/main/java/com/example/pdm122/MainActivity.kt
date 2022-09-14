@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         val btnImc:Button=findViewById(R.id.btnImc)
         val btnTime:Button=findViewById(R.id.btntimefighterActivity)
         val btnParcial1:Button= findViewById(R.id.btnParcial1)
+        val btnAnimacion:Button = findViewById(R.id.btnAnimationActivity)
 
         btn.setOnClickListener{
             imgHola.isVisible=false
@@ -46,6 +47,10 @@ class MainActivity : AppCompatActivity() {
         }
         btnParcial1.setOnClickListener {
             val intent=Intent(this,Parcial1::class.java).apply {  }
+            startActivity(intent)
+        }
+        btnAnimacion.setOnClickListener {
+            val intent = Intent(this,Animacionation::class.java).apply {  }
             startActivity(intent)
         }
     }

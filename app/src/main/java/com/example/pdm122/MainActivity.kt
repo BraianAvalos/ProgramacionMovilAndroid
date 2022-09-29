@@ -22,6 +22,8 @@ class MainActivity : AppCompatActivity() {
         val btnTime:Button=findViewById(R.id.btntimefighterActivity)
         val btnParcial1:Button= findViewById(R.id.btnParcial1)
         val btnAnimacion:Button = findViewById(R.id.btnAnimationActivity)
+        val btnPapelPiedra:Button = findViewById(R.id.btnRockPaperScissor)
+        val btnGeoLocalizer: Button = findViewById(R.id.btnGeoLocalizerActivity)
 
         btn.setOnClickListener{
             imgHola.isVisible=false
@@ -51,6 +53,14 @@ class MainActivity : AppCompatActivity() {
         }
         btnAnimacion.setOnClickListener {
             val intent = Intent(this,Animacionation::class.java).apply {  }
+            startActivity(intent)
+        }
+        btnPapelPiedra.setOnClickListener {
+            val intent = Intent(this,PiedraPapelTijera::class.java).apply {  }
+            startActivity(intent)
+        }
+        btnGeoLocalizer.setOnClickListener {
+            val intent = Intent(this, GeoLocalizer::class.java).apply {  }
             startActivity(intent)
         }
     }

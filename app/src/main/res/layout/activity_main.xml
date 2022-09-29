@@ -118,6 +118,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Animacion" />
+
+            <Button
+                android:id="@+id/btnRockPaperScissor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rock paper scissor" />
+
+            <Button
+                android:id="@+id/btnGeoLocalizerActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GeoLocalizer" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

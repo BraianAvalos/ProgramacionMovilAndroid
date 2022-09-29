@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">pdm122</string>
-    <string name="score">Tu puntuacion: %s</string>
-    <string name="time_left">Tiempo: %s</string>
-    <string name="end_game">Puntuaje: %s</string>
+    <string name="score">Your score: %s</string>
+    <string name="time_left">Time left: %s</string>
+    <string name="end_game">Your score: %s</string>
+    <string name="questionAvengers">El personaje grande morado es thanos</string>
+    <string name="questionDisney">Stitch es azul</string>
+    <string name="questionMap">La capital de Argentina es Puerto Rico</string>
+    <string name="questionTec">El ultimo telefono de apple se llama Iphone 14 ultra</string>
+    <string name="correctToast">Respuesta Correcta</string>
+    <string name="badToast">Rspuesta mala</string>
 </resources>

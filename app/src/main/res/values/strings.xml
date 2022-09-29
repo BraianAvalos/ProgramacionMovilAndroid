@@ -3,4 +3,10 @@
     <string name="score">Your score: %s</string>
     <string name="time_left">Time left: %s</string>
     <string name="end_game">Your score: %s</string>
+    <string name="questionAvengers">The big purple guy is Thanos</string>
+    <string name="questionDisney">Stitch is blue</string>
+    <string name="questionMap">The capital of argentina is Puerto Rico</string>
+    <string name="questionTec">The brand new phone from apple is the iphone 14 ultra</string>
+    <string name="correctToast">Correct answer</string>
+    <string name="badToast">Bad answer</string>
 </resources>

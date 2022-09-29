@@ -130,6 +130,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="GeoLocalizer" />
+
+            <Button
+                android:id="@+id/btnPokemon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pokedex" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

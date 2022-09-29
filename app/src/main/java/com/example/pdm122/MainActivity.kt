@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         val btnAnimacion:Button = findViewById(R.id.btnAnimationActivity)
         val btnPapelPiedra:Button = findViewById(R.id.btnRockPaperScissor)
         val btnGeoLocalizer: Button = findViewById(R.id.btnGeoLocalizerActivity)
+        val btnPokemon: Button = findViewById(R.id.btnPokemon)
 
         btn.setOnClickListener{
             imgHola.isVisible=false
@@ -61,6 +62,10 @@ class MainActivity : AppCompatActivity() {
         }
         btnGeoLocalizer.setOnClickListener {
             val intent = Intent(this, GeoLocalizer::class.java).apply {  }
+            startActivity(intent)
+        }
+        btnPokemon.setOnClickListener {
+            val intent = Intent(this, Pokedex::class.java).apply {  }
             startActivity(intent)
         }
     }
